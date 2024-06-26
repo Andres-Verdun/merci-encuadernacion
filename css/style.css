@@ -61,9 +61,18 @@ nav a {
     text-transform: uppercase;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
 
 nav a:hover {
     background-color: #27a8dc;
+    size-adjust: 20px;
+
 }
 
 h1,
@@ -78,8 +87,7 @@ footer {
     text-align: center;
     padding: 10px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
+    bottom: 0
 }
 
 .poetsen-one-regular {
@@ -112,5 +120,129 @@ button {
     box-sizing: 0
 }
 
-/* padding o relleno */
-/* flex */
+/* Regla de la media query */
+
+/* mobile */
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #f8f9fa;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+    body {
+        background-color: antiquewhite;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    body {
+        background-color: #f8f9fa;
+    }
+}
+
+section {
+    display: flex;
+    /* flex wrap -automatiza que no desborde el body*/
+    flex-wrap: wrap;
+}
+
+/* flex direction */
+.agenda1 {
+    flex-direction: column;
+}
+
+/* flex flow */
+
+.img-auto {
+    flex-direction: column;
+}
+
+.img-paisaje {
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+.header, .content, .footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    flex: 1; /* Esto asegura que el contenido ocupe el espacio disponible */
+}
+
+/* styles.css */
+
+/* Estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+.navbar, #navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.navbar .brand {
+    font-size: 1.5em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
+
+/* Menu toggle button, hidden by default */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
