@@ -20,8 +20,10 @@
 
 <body>
 
-    <nav class="navbar">
-        <ul>
+    <nav class="navbar" id="navBar">
+        <div class="brand">Merci</div>
+        <div class="menu-toggle">☰</div>
+        <ul class="nav-links">
             <li>
                 <a href="../index.html">Home</a>
             </li>
@@ -61,6 +63,13 @@
         crecer juntos. Te invitamos a sumergirte en nuestro blog y a dejarnos tus comentarios y preguntas. ¡Estamos aquí
         para inspirarte y acompañarte en tu viaje creativo!</p>
 
+
+
+
+
+        <script>
+            document.querySelector('.menu-toggle').addEventListener('click', () => {document.querySelector('.nav-links').classList.toggle('active')});
+         </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
