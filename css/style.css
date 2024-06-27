@@ -67,6 +67,12 @@ img {
     height: auto;
 }
 
+.logoInicial {
+    max-width: fit-content;
+    position: relative;
+    flex-wrap: wrap;
+}
+
 /* Flex container */
 .Ventas-varias {
     display: flex;
@@ -132,4 +138,30 @@ footer {
     box-sizing: border-box;
     padding: auto;
     text-decoration-color: #7295ba;
+}
+
+/* boton */
+.compra {
+    display: inline-block;
+    background-color: #d5d4d4
+    color (white);
+    padding: 10px 15px;
+    font-size: 14px; /* Tamaño de la fuente */
+    font-weight: bold; /* Peso de la fuente */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+    border: 1px; 
+    cursor: pointer; /* Cursor de mano al pasar sobre el botón */
+}
+
+.compra:hover {
+    background-color: #71807f; /* Color de fondo al pasar el mouse */
+    transform: scale(1.05); /* Escala el botón al pasar el mouse */
+}
+
+.compra:active {
+    background-color: #187690; /* Color de fondo al hacer clic */
+    transform: scale(0.95); /* Escala el botón al hacer clic */
 }
