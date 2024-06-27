@@ -177,7 +177,7 @@ section {
     flex: 1; /* Esto asegura que el contenido ocupe el espacio disponible */
 }
 
-/* styles.css */
+
 
 /* Estilos generales */
 body, html {
@@ -222,7 +222,7 @@ body, html {
     background-color: #555;
 }
 
-/* Menu toggle button, hidden by default */
+/* Menu toggle button, oculto por default*/
 .menu-toggle {
     display: none;
     cursor: pointer;
