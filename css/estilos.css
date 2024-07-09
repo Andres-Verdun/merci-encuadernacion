@@ -1,14 +1,31 @@
 @charset "UTF-8";
-/* Estilos generales */
-body,
-html {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+h1 {
+  color: aqua;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 5px;
+}
+
+/* Imágenes responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Flex container */
+.Ventas-varias {
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  /* Asegura que el contenido ocupe toda la altura de la pantalla */
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.brand {
+  box-sizing: border-box;
+  padding: auto;
+  text-decoration-color: #7295ba;
 }
 
 header {
@@ -18,12 +35,6 @@ header {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
-}
-
-p {
-  font-family: sans-serif;
-  font-size: 20px;
-  margin: 5px;
 }
 
 .navbar {
@@ -64,23 +75,46 @@ p {
   cursor: pointer;
 }
 
-/* Imágenes responsivas */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .logoInicial {
   max-width: fit-content;
   position: relative;
   flex-wrap: wrap;
 }
 
-/* Flex container */
-.Ventas-varias {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+/* boton */
+.compra {
+  display: inline-block;
+  background-color: #d5d4d4 color white;
+  padding: 10px 15px;
+  font-size: 14px;
+  /* Tamaño de la fuente */
+  font-weight: bold;
+  /* Peso de la fuente */
+  text-align: center;
+  /* Alineación del texto */
+  text-decoration: none;
+  /* Sin subrayado */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /* Transiciones suaves */
+  border: 1px;
+  cursor: pointer;
+  /* Cursor de mano al pasar sobre el botón */
+}
+
+.compra:hover {
+  background-color: #71807f;
+  /* Color de fondo al pasar el mouse */
+  transform: scale(1.05);
+  /* Escala el botón al pasar el mouse */
+}
+
+.compra:active {
+  background-color: #187690;
+  /* Color de fondo al hacer clic */
+  transform: scale(0.95);
+  /* Escala el botón al hacer clic */
 }
 
 footer {
@@ -127,55 +161,6 @@ footer {
   body {
     background-color: #f8f9fa;
   }
-}
-.brand {
-  box-sizing: border-box;
-  padding: auto;
-  text-decoration-color: #7295ba;
-}
-
-/* boton */
-.compra {
-  display: inline-block;
-  background-color: #d5d4d4 color white;
-  padding: 10px 15px;
-  font-size: 14px;
-  /* Tamaño de la fuente */
-  font-weight: bold;
-  /* Peso de la fuente */
-  text-align: center;
-  /* Alineación del texto */
-  text-decoration: none;
-  /* Sin subrayado */
-  border-radius: 5px;
-  /* Bordes redondeados */
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  /* Transiciones suaves */
-  border: 1px;
-  cursor: pointer;
-  /* Cursor de mano al pasar sobre el botón */
-}
-
-.compra:hover {
-  background-color: #71807f;
-  /* Color de fondo al pasar el mouse */
-  transform: scale(1.05);
-  /* Escala el botón al pasar el mouse */
-}
-
-.compra:active {
-  background-color: #187690;
-  /* Color de fondo al hacer clic */
-  transform: scale(0.95);
-  /* Escala el botón al hacer clic */
-}
-
-h1 {
-  color: aqua;
-}
-
-h2 {
-  color: aqua;
 }
 
 /*# sourceMappingURL=estilos.css.map */

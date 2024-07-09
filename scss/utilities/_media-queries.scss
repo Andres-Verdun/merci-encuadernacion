@@ -1,3 +1,44 @@
-h2 {
-    color: aqua;
+/* Media Queries para responsividad */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+}
+
+
+/* Regla de la media query */
+
+/* mobile */
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #f8f9fa;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+    body {
+        background-color: antiquewhite;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    body {
+        background-color: #f8f9fa;
+    }
 }
