@@ -1,8 +1,4 @@
 @charset "UTF-8";
-h1 {
-  color: aqua;
-}
-
 p {
   font-family: sans-serif;
   font-size: 20px;
@@ -26,6 +22,30 @@ img {
   box-sizing: border-box;
   padding: auto;
   text-decoration-color: #7295ba;
+}
+
+.carousel-slide {
+  max-height: 100px;
+  width: 50%;
+  object-fit: cover;
+}
+
+#nuestros-productos {
+  background-color: #417eb3;
+  text-align: center;
+}
+#nuestros-productos h2 {
+  margin: 0;
+}
+
+#nuestros-productos .container {
+  padding: 100px 0px;
+}
+#nuestros-productos .container h3 {
+  color: rgb(0, 0, 0);
+}
+#nuestros-productos .container p {
+  color: rgb(255, 255, 255);
 }
 
 header {
