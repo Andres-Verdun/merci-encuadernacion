@@ -1,16 +1,58 @@
-#nuestros-programas .carta1{
-    p{
-        display: none;
+#nuestros-productos {
+    .carta {
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        color: white;
+        margin: 10px;
+        padding: 20px;
+
+        p {
+            display: none;
+        }
+
+        &:first-child {
+            background-image: linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+            url(../../images/agendaAnual.webp);
+            background-position: center center;
+            background-size: cover;
+        }
+
+        &:nth-child(2) {
+            background-image: linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+            url(../../images/agendaDocente.webp);
+            background-position: center center;
+            background-size: cover;
+        }
+
+        &:nth-child(3) {
+            background-image: linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+            url(../../images/cuadernos.webp);
+            background-position: center center;
+            background-size: cover;
+        }
+
+        &:nth-child(4) {
+            background-image: linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ),
+            url(../../images/albumFotos.webp);
+            background-position: center center;
+            background-size: cover;
+        }
     }
-    
 }
-.carta:first-child {
-    background-image: linear-gradient(0deg, rgba (0,0,0,0.5), rgba (0,0,0,0.5), ), 
-    url("./../../images/agendaAnual.webp")
-}
-
-.carta:nth-child(2)
-
-.carta:nth-child(3)
-
-.carta:nth-child(4)
