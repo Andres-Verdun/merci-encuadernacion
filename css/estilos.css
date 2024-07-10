@@ -5,6 +5,12 @@ p {
   margin: 5px;
 }
 
+li {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 5px;
+}
+
 /* Imágenes responsivas */
 img {
   max-width: 100%;

@@ -4,7 +4,11 @@ p {
     font-size: 20px;
     margin: 5px;
 }
-
+li {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 5px;
+}
 /* Imágenes responsivas */
 img {
     max-width: 100%;
@@ -63,9 +67,6 @@ img {
   border-radius: 10px;
 }
 
-.container {
-
-}
 
 // Aplicar el margen global al body
 body {
