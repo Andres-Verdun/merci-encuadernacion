@@ -5,7 +5,14 @@
         border-radius: 10px;
         color: white;
         margin: 10px;
-        padding: 20px;
+        padding: 25px;
+        background-position: center center;
+        background-size: cover;
+
+        h3 {
+            color: white;
+        }
+    
 
         p {
             display: none;
@@ -18,8 +25,7 @@
                 rgba(0, 0, 0, 0.5)
             ),
             url(../../images/agendaAnual.webp);
-            background-position: center center;
-            background-size: cover;
+            
         }
 
         &:nth-child(2) {
@@ -29,8 +35,7 @@
                 rgba(0, 0, 0, 0.5)
             ),
             url(../../images/agendaDocente.webp);
-            background-position: center center;
-            background-size: cover;
+         
         }
 
         &:nth-child(3) {
@@ -40,8 +45,7 @@
                 rgba(0, 0, 0, 0.5)
             ),
             url(../../images/cuadernos.webp);
-            background-position: center center;
-            background-size: cover;
+        
         }
 
         &:nth-child(4) {
@@ -51,8 +55,7 @@
                 rgba(0, 0, 0, 0.5)
             ),
             url(../../images/albumFotos.webp);
-            background-position: center center;
-            background-size: cover;
+       
         }
     }
 }

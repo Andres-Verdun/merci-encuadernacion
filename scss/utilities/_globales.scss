@@ -51,3 +51,31 @@ img {
 
 }
 
+
+@import "../../scss/utilities/variables";
+@import "../../scss/utilities/mixin";
+
+// Estilos globales para todos los elementos
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.container {
+
+}
+
+// Aplicar el margen global al body
+body {
+  @include apply-margin();
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+// Estilos adicionales para elem comunes
+header, footer, section, div, p, h1, h2, h3, h4, h5, h6 {
+  @include apply-margin();
+}
