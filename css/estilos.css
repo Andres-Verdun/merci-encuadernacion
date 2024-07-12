@@ -3,6 +3,8 @@ p {
   font-family: sans-serif;
   font-size: 20px;
   margin: 5px;
+  text-align: justify;
+  text-indent: 1em;
 }
 
 li {
@@ -30,18 +32,13 @@ img {
   text-decoration-color: #7295ba;
 }
 
-.carousel-slide {
-  max-height: 100px;
-  width: 50%;
-  object-fit: cover;
-}
-
 #nuestros-productos {
   background-color: #417eb3;
   text-align: center;
 }
 #nuestros-productos h2 {
   margin: 0;
+  text-indent: 1em;
 }
 
 #nuestros-productos .container {
@@ -49,6 +46,7 @@ img {
 }
 #nuestros-productos .container h3 {
   color: rgb(0, 0, 0);
+  text-indent: 1em;
 }
 #nuestros-productos .container p {
   color: rgb(255, 255, 255);
@@ -70,6 +68,10 @@ body {
 
 header, footer, section, div, p, h1, h2, h3, h4, h5, h6 {
   margin: 10px;
+}
+
+.imagenLogo {
+  vertical-align: middle;
 }
 
 header {

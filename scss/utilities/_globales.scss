@@ -3,6 +3,8 @@ p {
     font-family: sans-serif;
     font-size: 20px;
     margin: 5px;
+    text-align: justify;
+    text-indent: 1em;
 }
 li {
     font-family: sans-serif;
@@ -28,24 +30,20 @@ img {
     text-decoration-color: #7295ba;
 }
 
-.carousel-slide {
-    max-height: 100px; 
-    width: 50%;
-    object-fit: cover;
-}
 
 
 #nuestros-productos {
     background-color: $color-fondo-principal;
     text-align: center;
         h2 {
-            margin: 0
-            ;
+            margin: 0;
+            text-indent: 1em;
         }
 }
 #nuestros-productos .container {
             h3 {
                 color: rgb(0, 0, 0);
+                text-indent: 1em;
             }
             p { 
                 color: rgb(255, 255, 255);
@@ -59,7 +57,7 @@ img {
 @import "../../scss/utilities/variables";
 @import "../../scss/utilities/mixin";
 
-// Estilos globales para todos los elementos
+// Estilos globales para todos los elem
 * {
   box-sizing: border-box;
   margin: 0;
@@ -68,7 +66,7 @@ img {
 }
 
 
-// Aplicar el margen global al body
+// Aplica el margen global al body
 body {
   @include apply-margin();
   font-family: Arial, sans-serif;
@@ -79,4 +77,8 @@ body {
 // Estilos adicionales para elem comunes
 header, footer, section, div, p, h1, h2, h3, h4, h5, h6 {
   @include apply-margin();
+}
+
+.imagenLogo {
+    vertical-align: middle;
 }
