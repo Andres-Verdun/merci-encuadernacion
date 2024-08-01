@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="HTML, ENCUADERNACION, MERCI, AGENDAS, ARTESANAL, ARTESANALES, CUADERNOS PERSONALIZADOS, TIENDA">
     <title>Merci Encuadernaciones</title>
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,9 +35,8 @@
     </header>
 
     <main>
+
         <section>
-
-
             <h2>Tienda</h2>
 
             <h3>Las mejores agendas están acá...</h3>
@@ -125,7 +126,7 @@
                         perfectamente a cualquier necesidad, ya sea para el estudio, el trabajo o la creatividad
                         personal.
                         Echa un vistazo y elige el que haga resonar tu inspiración.</p>
-                    <button class="mas"><a href="cuadernos">Ver Más</a></button>
+                    <a href=#cuadernos class="btn btn-primary">Quiero ver!</a>
                 </div>
 
                 <div class="carta">
@@ -194,7 +195,7 @@
             </div>
 
         </section>
-
+        <!-- Comienza la section donde están en columnas las cards de las agendas docentes. Bootstrap -->
         <section id="agendas-docentes">
 
             <div class="container">
@@ -208,13 +209,9 @@
                     organizadas.
                 </p>
 
-
             </div>
 
             <div class="container">
-
-
-
 
             </div>
 
@@ -274,7 +271,48 @@
                     </div>
                 </div>
             </div>
+        </section>
 
+        <section id="cuadernos">
+            <h2>Cuadernos</h2>
+            <p>Descubre nuestra colección de cuadernos artesanales, creados con amor y dedicación. En Merci, cada
+                cuaderno es una pieza única, diseñada para inspirar tu creatividad y acompañarte en todas tus ideas.
+                ¡Encuentra el tuyo y comienza a escribir tu historia!</p>
+
+            <div class="container text-center">
+                <div class="row align-items-start">
+
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../images/cuaderno1.webp" class="card-img-top" alt="cuaderno flores bordadas">
+                            <div class="card-body">
+                                <p class="card-text">¡Descubre la elegancia y el encanto de nuestro cuaderno artesanal
+                                    de edición limitada! Con una hermosa cubierta bordada de flores en tonos suaves, es
+                                    perfecto
+                                    para tus notas, diarios o como regalo especial.</p>
+                                <a href="" class="btn btn-primary">La quiero!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="../images/cuaderno2.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">¡Explora el universo con nuestro cuaderno artesanal de diseño
+                                    galáctico! Con una impresionante cubierta que muestra planetas y patrones cósmicos,
+                                    este cuaderno es ideal para tus notas, diarios o como un regalo especial para los
+                                    amantes del espacio.</p>
+                                <a href="" class="btn btn-primary">La quiero!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        One of three columns
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
 
 
