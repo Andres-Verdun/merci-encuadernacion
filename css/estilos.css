@@ -64,6 +64,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
   color: #333;
+  line-height: 1.5;
 }
 
 header, footer, section, div, p, h1, h2, h3, h4, h5, h6 {
