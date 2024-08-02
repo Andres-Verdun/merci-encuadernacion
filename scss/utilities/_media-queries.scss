@@ -42,3 +42,11 @@
         background-color: #f8f9fa;
     }
 }
+
+@media (max-width: 1200px) 
+{
+    .video-container {
+        padding-bottom: 75%; // 4:3 aspecto para videos pequeños en mobile
+        min-width: 230px;
+    }
+}
